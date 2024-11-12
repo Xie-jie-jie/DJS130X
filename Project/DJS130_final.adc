@@ -1,0 +1,48 @@
+set_pin_assignment	{ clk }	{ LOCATION = K14; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_CACHE_FLUSH }	{ LOCATION = R5; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[0] }	{ LOCATION = N8; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[1] }	{ LOCATION = R9; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[2] }	{ LOCATION = P9; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[3] }	{ LOCATION = N9; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[4] }	{ LOCATION = T14; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[5] }	{ LOCATION = R14; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[6] }	{ LOCATION = T15; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_data[7] }	{ LOCATION = R15; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_spi_miso }	{ LOCATION = C9; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ i_spi_mosi }	{ LOCATION = C5; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ i_spi_ncs }	{ LOCATION = C8; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ i_spi_sck }	{ LOCATION = B15; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ i_write }	{ LOCATION = H14; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ rst_n }	{ LOCATION = T4; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ spi_clk }	{ LOCATION = A3; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ spi_mosi }	{ LOCATION = A13; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ vga_dclk }	{ LOCATION = H2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_hs }	{ LOCATION = J3; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[0] }	{ LOCATION = C1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[10] }	{ LOCATION = J6; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[11] }	{ LOCATION = H3; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[12] }	{ LOCATION = J1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[13] }	{ LOCATION = K1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[14] }	{ LOCATION = K2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[15] }	{ LOCATION = L1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[16] }	{ LOCATION = K6; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[17] }	{ LOCATION = K3; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[18] }	{ LOCATION = K5; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[19] }	{ LOCATION = L4; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[1] }	{ LOCATION = D1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[20] }	{ LOCATION = M1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[21] }	{ LOCATION = M2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[22] }	{ LOCATION = L3; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[23] }	{ LOCATION = L5; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[2] }	{ LOCATION = E2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[3] }	{ LOCATION = G3; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[4] }	{ LOCATION = E1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[5] }	{ LOCATION = F2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[6] }	{ LOCATION = F1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[7] }	{ LOCATION = G1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[8] }	{ LOCATION = H5; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_rgb[9] }	{ LOCATION = H1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ vga_vs }	{ LOCATION = J4; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+

@@ -1,0 +1,60 @@
+standard
+***Report Model: DJS130_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        46
+  #input                   15
+  #output                  31
+  #inout                    0
+
+Gate Statistics
+#Basic gates              760
+  #and                     73
+  #nand                     0
+  #or                      12
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     38
+  #bufif1                   0
+  #MX21                    33
+  #FADD                     0
+  #DFF                    604
+  #LATCH                    0
+#MACRO_ADD                 34
+#MACRO_EQ                  36
+#MACRO_MULT                 1
+#MACRO_MUX                313
+#MACRO_OTHERS               4
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------+
+|Instance                     |Module             |gates  |seq    |macros |
++-------------------------------------------------------------------------+
+|top                          |DJS130_top         |156    |604    |75     |
+|  u_DJS130_DKP               |DJS130_DKP         |64     |498    |48     |
+|    u_spi_flash              |SPI_flash          |46     |430    |36     |
+|      u_flash_dri            |flash_dri          |45     |428    |36     |
+|        u_flash_erase        |flash_erase        |3      |32     |3      |
+|        u_flash_fast_read    |flash_fast_read    |3      |76     |3      |
+|        u_flash_id           |flash_id           |3      |28     |3      |
+|        u_flash_read         |flash_read         |3      |56     |3      |
+|        u_flash_sector_erase |flash_sector_erase |3      |56     |3      |
+|        u_flash_wait_free    |flash_wait_free    |8      |80     |7      |
+|        u_flash_write        |flash_write        |3      |56     |3      |
+|        u_flash_write_enable |flash_write_enable |3      |31     |3      |
+|  u_PLL                      |PLL                |0      |0      |1      |
+|  u_TTO_TOP                  |TTO_TOP            |33     |48     |23     |
+|    u_DJS130_gdu             |DJS130_gdu         |33     |48     |23     |
+|      u_DJS130_TTO           |DJS130_TTO         |13     |23     |3      |
+|      u_FROM_2               |VRAM_2             |0      |0      |1      |
+|      u_PLL0                 |PLL0               |0      |0      |1      |
+|      u_VRAM_3               |VRAM_3             |0      |0      |1      |
+|      u_tinygdu              |tinygdu            |16     |22     |15     |
+|  u_ZZB                      |ZZB                |59     |58     |3      |
+|    u_MCQ                    |MCQ                |9      |7      |0      |
+|    u_RC                     |RC                 |0      |1      |0      |
+|    u_YSQ                    |YSQ                |16     |16     |2      |
+|    u_YXZT                   |YXZT               |16     |29     |0      |
++-------------------------------------------------------------------------+
